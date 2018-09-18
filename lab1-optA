@@ -42,7 +42,7 @@ def process_dir(path):      # Method used uses time complexity of O(n)
         else:
             cat_list.append(list[i])
 
-    print(*dog_list, sep ='\n')     # Lines 45 thru 47 tests that dog_list and cat_list are filled // may be erased or marked out
+    print(*dog_list, sep ='\n')     # Lines 45 thru 47 tests that dog_list and cat_list are filled correctly // may be erased or marked out
     print('\n')
     print(*cat_list, sep ='\n')
 
